@@ -8,12 +8,18 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <audio id="mySound" src="./assets/img/flower.mp3"></audio>  
     <title>Dear Mỹ Dung</title>
 </head>
 
 <body class="not-loaded">
     <div class="night"></div>
-    <h1 id="typingText" class="text-5xl md:text-6xl font-bold text-pink-600 transition-all duration-300 ease-in-out hover:text-purple-600 hover:scale-105" style="font-family: 'Pacifico', cursive; position: absolute;top: 10px;"></h1>
+    <div class="text-center" style="position: absolute; top: 20px;">
+        <h1 id="typingText" class="text-5xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-blue-500 transition-all duration-300 ease-in-out hover:scale-105 mb-8" style="font-family: 'Pacifico', cursive; height: 100px;"></h1>
+        <div>
+            <button id="loadButton" class="bg-gradient-to-r from-pink-500 to-blue-500 text-white hover:from-pink-600 hover:to-blue-600 font-bold py-2 px-4 rounded transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110">Click Me</button>
+        </div>
+    </div>
     <div class="flowers">
         <div class="flower flower--1">
             <div class="flower__leafs flower__leafs--1">
@@ -313,7 +319,7 @@
     </div>
 
     <script src="assets/js/main.js"></script>
-    <script>
+    <!-- <script>
         const text = " Dear Mỹ Dung";
         let index = 0;
         function typeWriter() {
@@ -324,7 +330,7 @@
             }
         }
         window.onload = typeWriter;
-    </script>
+    </script> -->
    
 </body>
 
