@@ -1,4 +1,4 @@
-const text = " Dear Mỹ Dung";  
+const text = " Dear Phương Linh";  
 let index = 0;  
 
 // Hàm để hiển thị văn bản theo kiểu gõ  
